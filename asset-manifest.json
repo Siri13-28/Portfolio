@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.30121987.css",
-    "main.js": "/Portfolio/static/js/main.23dee146.js",
+    "main.css": "/Portfolio/static/css/main.ad96e322.css",
+    "main.js": "/Portfolio/static/js/main.c10ba043.js",
     "static/media/img_profile_bg.png": "/Portfolio/static/media/img_profile_bg.80b3b6e3298abacb7ff5.png",
     "static/media/Manrope-SemiBold.ttf": "/Portfolio/static/media/Manrope-SemiBold.c3189b18688e4f3e0d86.ttf",
     "static/media/Manrope-Regular.ttf": "/Portfolio/static/media/Manrope-Regular.3d92b64331e124bd334e.ttf",
@@ -9,11 +9,11 @@
     "static/media/Starlight-Romance.ttf": "/Portfolio/static/media/Starlight-Romance.1937a4861c86ccb999a6.ttf",
     "static/media/img_self.png": "/Portfolio/static/media/img_self.712e16986c50d495c9ff.png",
     "index.html": "/Portfolio/index.html",
-    "main.30121987.css.map": "/Portfolio/static/css/main.30121987.css.map",
-    "main.23dee146.js.map": "/Portfolio/static/js/main.23dee146.js.map"
+    "main.ad96e322.css.map": "/Portfolio/static/css/main.ad96e322.css.map",
+    "main.c10ba043.js.map": "/Portfolio/static/js/main.c10ba043.js.map"
   },
   "entrypoints": [
-    "static/css/main.30121987.css",
-    "static/js/main.23dee146.js"
+    "static/css/main.ad96e322.css",
+    "static/js/main.c10ba043.js"
   ]
 }
