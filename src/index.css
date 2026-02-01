@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #343434;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/font/Manrope-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Starlight-Romance";
+  src: url("./assets/font/Starlight-Romance.ttf");
+  font-weight: 400;
+}
+/* container */
+.container {
+  margin: 0 auto;
+  color: #343434;
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 1;
+  font-family: "Manrope", sans-serif;
+}
+
+.container p {
+  font-weight: 400;
+}
+
+.container h2 {
+  font-size: 50px;
+  font-weight: 600;
+ }
+
+/* commond */
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.cmn-banner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.cmn-btn {
+    border-radius: 10px;
+    align-items: center;
+    background-image: linear-gradient(180deg, #ffffff 0%, #f7bab9 100%);
+    -webkit-background-image: linear-gradient(180deg, #ffffff 0%, #f7bab9 100%);
+    box-shadow: 0 2px 4px 0 #343434;
+    -webkit-box-shadow: 0 2px 4px 0 #343434;
+    padding: 13px 23px;
+    width: fit-content;
+}
+
+.cmn-btn:hover {
+  opacity: 0.8;
+}
+
+.cmn-ttl {
+  padding: 20px 10px;
+}
+
+/* header */
+.header {
+  padding: 20px;
+  background: #343434;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.header .cmn-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header nav a {
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.header nav a:hover {
+  color: #f7bab9;
+}
+
+/* home */
+
+.home {
+  padding: 10px 20px 10px 20px;
+  background-image: url("./assets/img/img_profile_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.home .cmn-banner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    top: 50%;
+    left: 0;
+    transform: translate(0, 50%);
+    z-index: 1;
+}
+
+.home .home-info {
+  padding: 30px 0;
+}
+
+.home .home-info h1,
+.home .home-info h2,
+.home .home-info p {
+overflow: hidden; 
+white-space: nowrap; 
+margin: 0 auto; 
+opacity: 0;
+animation-timing-function: steps(30, end);
+animation-fill-mode: forwards;
+}
+
+.home .home-info h1 {
+  font-size: 80px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  animation:
+    show 0s linear 0s forwards,
+    typing 3.2s steps(30, end) 0s forwards;
+}
+
+.home .home-info h2 {
+  animation:
+    show 0s linear 3.2s forwards,
+    typing 3.2s steps(30, end) 3.2s forwards;
+}
+
+.home .home-info p {
+  font-size: 20px;
+  padding: 20px 0;
+  animation:
+    show 0s linear 6.4s forwards,
+    typing 3.2s steps(40, end) 6.4s forwards;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes show {
+  to { opacity: 1; }
+}
+
+/* Skills */
+.sec-skills {
+  
+}
+
+
+
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.alt {
+  background: #f4f4f4;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
