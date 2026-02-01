@@ -2,6 +2,7 @@ import "./assets/css/circle-animat.css";
 import "./index.css";
 import "./reset.css";
 import profileImg from "./assets/img/img_self.png";
+import profileBg from "./assets/img/img_profile_bg.png";
 
 function App() {
   const skills = ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Git"];
@@ -24,7 +25,7 @@ function App() {
       </header>
 
       {/* HOME */}
-      <section id="home" className="home">
+      <section id="home" className="home" style={{ backgroundImage: `url(${profileBg})` }}>
         <div className="cmn-banner">
           <div className="home-info">
             <h1>Hi, I'm Siriwann</h1>
